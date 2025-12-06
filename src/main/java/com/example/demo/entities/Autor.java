@@ -55,4 +55,3 @@ public class Autor {
         this.biografia = biografia;
     }
 }
-

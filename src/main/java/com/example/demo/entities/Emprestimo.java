@@ -44,9 +44,7 @@ public class Emprestimo {
     public Instant getDataDevolucaoPrevista() {
         return dataDevolucaoPrevista;
     }
-    public void setDataDevolucaoPrevista(Instant dataDevolucaoPrevista) {
-        this.dataDevolucaoPrevista = dataDevolucaoPrevista;
-    }
+    public void setDataDevolucaoPrevista(Instant dataDevolucaoPrevista) {this.dataDevolucaoPrevista = dataDevolucaoPrevista;}
     public Instant getDataDevolucaoReal() {
         return dataDevolucaoReal;
     }

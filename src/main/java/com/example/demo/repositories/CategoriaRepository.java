@@ -1,6 +1,9 @@
 package com.example.demo.repositories;
 
+import com.example.demo.entities.Categoria;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-public interface CategoriaRepository extends JpaRepository <com.example.demo.entities.Categoria, Long> {
+@Repository
+public interface CategoriaRepository extends JpaRepository <Categoria, Long> {
 }

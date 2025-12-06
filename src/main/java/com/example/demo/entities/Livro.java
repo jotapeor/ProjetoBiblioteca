@@ -3,7 +3,6 @@ package com.example.demo.entities;
 import jakarta.persistence.*;
 
 import java.time.Instant;
-import java.util.Date;
 
 @Entity
 public class Livro {
@@ -85,7 +84,5 @@ public class Livro {
     public String getExemplaresDisponiveis() {
         return exemplaresDisponiveis;
     }
-    public void setExemplaresDisponiveis(String exemplaresDisponiveis) {
-        this.exemplaresDisponiveis = exemplaresDisponiveis;
-    }
+    public void setExemplaresDisponiveis(String exemplaresDisponiveis) {this.exemplaresDisponiveis = exemplaresDisponiveis;}
 }

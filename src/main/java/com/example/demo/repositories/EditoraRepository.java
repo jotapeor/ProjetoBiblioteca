@@ -1,6 +1,9 @@
 package com.example.demo.repositories;
 
+import com.example.demo.entities.Editora;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-public interface EditoraRepository extends JpaRepository <com.example.demo.entities.Editora, Long> {
+@Repository
+public interface EditoraRepository extends JpaRepository <Editora, Long> {
 }

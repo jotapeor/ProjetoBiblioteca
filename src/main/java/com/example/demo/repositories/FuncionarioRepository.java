@@ -1,6 +1,9 @@
 package com.example.demo.repositories;
 
+import com.example.demo.entities.Funcionario;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-public interface FuncionarioRepository extends JpaRepository <com.example.demo.entities.Funcionario, Long> {
+@Repository
+public interface FuncionarioRepository extends JpaRepository <Funcionario, Long> {
 }
